@@ -1,0 +1,161 @@
+
+.copyright {
+    color: #fff;
+    margin-top: 7px;
+}
+.copyright .anticon-heart {
+    color: #f5222d;
+    margin: 0 5px;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+
+.anticon {
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+.anticon svg {
+    display: inline-block;
+}
+.copyright a {
+    margin: 0 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+a {
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+    -webkit-text-decoration-skip: objects;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+@media (min-width: 992px){
+.ant-col-lg-12 {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+@media (min-width: 768px){
+.ant-col-md-12 {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+.ant-col-xs-24 {
+    display: block;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.ant-layout-footer {
+    padding: 24px 50px;
+    color: #fff;
+    font-size: 14px;
+    background: #f0f2f5;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-menu ul li {
+    list-style: none;
+}
+.footer-menu ul li a {
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #fff;
+}
+
+.text-muted {
+    color: #fff;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+
+@media (min-width: 992px){
+.layout-dashboard .ant-layout-footer {
+    margin: 0 0 20px 20px;
+}
+}
+.layout-dashboard .ant-layout-footer {
+    background: 0 0;
+    margin: 0 20px 20px;
+    padding: 0;
+}
+.ant-layout-footer {
+    padding: 0 50px;
+}
+.ant-layout-footer {
+    padding: 24px 50px;
+    color: #fff;
+    font-size: 14px;
+    background: #f0f2f5;
+}
+.ant-layout-footer, .ant-layout-header {
+    flex: 0 0 auto;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+}
+.ant-layout, .ant-layout * {
+    box-sizing: border-box;
+}
+
+.ant-row, .ant-row:after, .ant-row:before {
+    display: flex;
+}
+.ant-row {
+    flex-flow: row wrap;
+}

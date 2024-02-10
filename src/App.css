@@ -1,0 +1,56 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.hrStyle {
+  flex-shrink: 0;
+  border-top: 0px solid rgba(0, 0, 0, 0.08);
+  border-right: 0px solid rgba(0, 0, 0, 0.08);
+  border-left: 0px solid rgba(0, 0, 0, 0.08);
+  height: 0.0625rem;
+  margin: 1rem 0px;
+  border-bottom: none;
+  opacity: 0.25;
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(0, 117, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0)) !important;
+}
+
+/*# sourceMappingURL=App.css.map */
+
+.tablestyle {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+.theadStyle {
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+}
+
+.theadStyle tr, .tbodyStyle tr {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0px;
+}
+
+.theadStyle tr th {
+  padding-left: 0px !important;
+
+  border-bottom: 0.0625rem solid rgb(45, 55, 72);
+
+  width: auto;
+  padding: 12px 24px 10px;
+  text-align: left;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-bottom: 0.0625rem solid rgb(45, 55, 72);
+  opacity: 0.7;
+  background: transparent;
+  color: rgb(160, 174, 192);
+}
+
+.tbodyStyle{
+  display: table-row-group;
+}

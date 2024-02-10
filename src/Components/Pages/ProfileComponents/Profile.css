@@ -1,0 +1,147 @@
+.backgro{
+    background: transparent;
+    position: relative;
+    float: left;
+    left: 100%;
+    color: white;
+    width: 125%;
+    justify-content: space-between;
+}
+.ProfileSection .backgroundimage {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(120px);
+    position: relative;
+    min-width: 0px;
+    padding: 30px;
+    overflow-wrap: break-word;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+    background: url(/public/assets/profileimage.png) 100% center;
+    height: 600px;
+    width: 100%;
+}
+
+.ProfileSection .backgroundimage .whites {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+}
+
+.ProfileSection .pt-4 .tablemain .tablefirst .images {
+    background: url(/public/assets/avatar-simmmple.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.ProfileSection .tablemain .tablefirst .setimg {
+    display: flex;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.ProfileSection .backgrounds {
+    background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.ProfileSection .backgrounds .svg1 {
+    transform: rotate(-90deg);
+    overflow: visible;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    justify-content: center;
+}
+
+
+.ProfileSection .background3 {
+    background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ProfileSection  .bck {
+    background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+    height: 550px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ProfileSection  .bck .account {
+    font-size: 13px;
+    color: lightslategray;
+}
+
+.setbackground {
+    background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+
+    border-radius: 20px;
+}
+
+.ProfileSection .setbackground .buttonsSet {
+    --c: #e9fbfb;
+    /* the color*/
+
+    box-shadow: 0 0 0 .1em inset var(--c);
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background:
+        var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+        var(--_g) calc(200% - var(--_p, 0%)) 0%,
+        var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+        var(--_g) calc(200% - var(--_p, 0%)) 100%;
+    background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s, backround red;
+}
+
+.ProfileSection .setbackground .buttonsSet:active {
+    box-shadow: 0 0 9e9q inset #0009;
+    background-color: var(--c);
+    color: rgb(26, 204, 26);
+}
+
+.ProfileSection .setbackground .buttonsSet {
+    font-family: system-ui, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+}
+/* @media (min-width: 300px){
+    .CircularProgressbar{
+        width: 100px;
+    }
+    .containenr{
+        position: relative;
+        float: right;
+        right: 100%;
+        top: 70px;
+        height: 20vh;
+    }
+}
+@media (max-width: 2976px){
+    .CircularProgressbar{
+        width: 70%;
+    }
+    .containenr{
+        position: relative;
+        float: left;
+        left: 100%;
+        top: 70px;
+        height: 10vh;
+    }
+} */

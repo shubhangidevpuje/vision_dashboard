@@ -1,0 +1,383 @@
+
+.card {
+  background: linear-gradient(126.97deg, rgba(6, 11, 40, 0.74) 28.26%, #0a0e23b5 91.2%) !important;
+  border-radius: 1.25rem !important;
+}
+.card .card-body {
+  padding: 17px;
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+}
+.card .info h4 {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  opacity: 1;
+  text-transform: capitalize;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 500;
+}
+.card .info .infosecond {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.625;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.card .info .infosecond span {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.card .info .infosecond .green {
+  color: rgb(1, 181, 116);
+}
+.card .leftSide .box {
+  width: 3rem;
+  height: 3rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background: rgb(0, 117, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 0.9375rem;
+  box-shadow: rgba(20, 20, 20, 0.12) 0rem 0.25rem 0.375rem -0.0625rem, rgba(20, 20, 20, 0.07) 0rem 0.125rem 0.25rem 0;
+}
+
+.card .bg-image {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(120px);
+          backdrop-filter: blur(120px);
+  position: relative;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+  height: 340px;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow: hidden;
+  background: url("../../../../public/assets/home.png") 50% center;
+  padding: 32px 22px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 1.25rem;
+  background-position: 50% center;
+}
+.card .secondCard {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+}
+.card .secondCard h3 {
+  margin: 0px 0px 4px;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.card .secondCard p {
+  margin: 0px 0px 20px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 400;
+}
+.card .secondCard .green {
+  color: rgb(1, 181, 116);
+}
+.red {
+  color: red;
+}
+.lightgray{
+  color: lightslategray;
+}
+.white{
+  color: #fff;
+  font-weight: bolder;
+}
+.card .secondCard .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background: rgb(34, 35, 75);
+  color: rgb(52, 71, 103);
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.card .circlediv {
+  opacity: 1;
+  color: rgb(52, 71, 103);
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+  margin-bottom: 25px;
+  padding: 18px 26px;
+   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 20px;
+  background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+}
+.card .circlediv .spanFirst {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  display: inline-block;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 400;
+}
+.card .circlediv .circle {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+  min-width: 80px;
+}
+.card .circlediv .circle h3 {
+  margin: 0px;
+  font-size: 1.875rem;
+  line-height: 1.375;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.card .circlediv .circle span {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 400;
+}
+.card .circlediv .divlast {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  display: inline-block;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 400;
+}
+.card .graphCard {
+  background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.card .boxes {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  gap: 20px;
+}
+.card .boxes .box .card {
+  display: flex;
+  padding: 25px 22px;
+  flex-direction: column;
+  opacity: 1;
+  color: rgb(52, 71, 103);
+  background: linear-gradient(126.97deg, rgb(6, 11, 40) 28.26%, rgb(10, 14, 35) 91.2%);
+  border-radius: 20px;
+
+}
+.card .boxes .box .card .heading {
+  margin: 0px 0px 5px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 400;
+ 
+}
+.card .boxes .box .card h3 {
+  margin: 0px;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.card .heading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card .heading .icon {
+  stroke-width: 0;
+  color: rgb(255, 255, 255);
+  height: 12px;
+  width: 12px;
+}
+.card .heading .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background: rgb(0, 117, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  width: 25px;
+  height: 25px;
+}
+.card .heading h4 {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(160, 174, 192);
+  font-weight: 500;
+}
+.card .heading span {
+  margin: 0px;
+  font-family: "Plus Jakarta Display", Helvetica, Arial, sans-serif;
+  font-size: 1.475rem;
+  line-height: 1.5;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.card .headingBox {
+  display: flex;
+  align-items: flex-start;
+}
+.card .headingBox .smallBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .bg-bg {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(120px);
+          backdrop-filter: blur(120px);
+  position: relative;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+  height: 250px;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow: hidden;
+  background: url("../../../../public/assets/background.png") 90% center;
+  padding: 32px 22px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 1.25rem;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  
+}
+
+.card .bg-back {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: column;
+  -webkit-backdrop-filter: blur(120px);
+          backdrop-filter: blur(120px);
+  position: relative;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+  height: 250px;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow: hidden;
+  background: url("../../../../public/assets/billingbackground.png") 90% center;
+  padding: 32px 22px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  -o-border-image: initial;
+     border-image: initial;
+  border-radius: 1.25rem;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.tbodyStyle .ms-3{
+  color: #fff;
+}
+.tbodyStyle .mb-0{
+  color: #fff;
+}
+.tbodyStyle .mb-1{
+  color: #fff;
+}
+.tbodyStyle .senior{
+  color: #fff;
+}
